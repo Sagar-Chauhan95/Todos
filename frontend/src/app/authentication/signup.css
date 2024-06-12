@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+    align-self: center;
+    justify-self: center;
+    margin-left: 35%;
+    align-items: center;
+
+}
+
+.signIn{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border-radius: 18px;
+    background-color: rgb(22, 93, 155);
+    border-width: 1px solid red;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+
+}
+h3{
+    position: relative;
+    
+    margin-bottom: 110px;
+    margin-left: 35%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+button{
+    width: 100px;
+    margin-left: 150px;
+    height: 35px;
+    font-size: 22px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.or {
+    margin-left: 150px;
+    margin-top: 30px;
+    color: white;
+   
+}
+
+.footer{
+    margin-left: 100px;
+    color: white;
+}

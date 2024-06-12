@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="signIn" >
+        <h3 >SignIn</h3>
+        <form [formGroup]="form" (ngSubmit)="signIn()"  >
+            <input type="text" placeholder="Enter email" formControlName="email"> <br/>
+        <input type="password" placeholder="Enter password" formControlName="password"> <br/>
+
+        <button type="submit"[disabled]="form.invalid" >Login</button>
+        </form>
+        
+        <p class="or">-------OR--------</p>
+        <p class="footer">Need an account? <a style="color: violet;" [routerLink]="['','signup']">Sign Up</a></p>
+    </div>
+
+</div>
